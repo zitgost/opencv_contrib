@@ -47,7 +47,7 @@ If you prefer using the gui version of cmake (cmake-gui), then, you can add `ope
 
 6. press the `configure` button followed by the `generate` button (the first time, you will be asked which makefile style to use)
 
-7. build the `opencv` core with the method you chose (make and make install if you chose Unix makfile at step 6) 
+7. build the `opencv` core with the method you chose (make and make install if you chose Unix makefile at step 6) 
 
 8. to run, linker flags to contrib modules will need to be added to use them in your code/IDE. For example to use the aruco module, "-lopencv_aruco" flag will be added.
 
@@ -55,6 +55,6 @@ If you prefer using the gui version of cmake (cmake-gui), then, you can add `ope
 
 In order to keep a clean overview containing all contributed modules the following files need to be created/adapted.
 
-1. Update the README.md file under the modules folder. Here you add your model with a single line description.
+1. Update the README.md file under the modules folder. Here you add your module with a single line description.
 
 2. Add a README.md inside your own module folder. This README explains which functionality (seperate functions) is available, links to the corresponding samples and explains in somewhat more detail what the module is expected to do. If any extra requirements are needed to build the module without problems, add them here also.
